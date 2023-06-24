@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <title>Contact </title>
+</head>
+<body>
+<header>
+    <h1>
+        Contact Us
+    </h1>
+    <nav>
+        <ul>
+            <li><a href="/htmltest/index.html#LTS">About LTS</a></li>
+        </ul>
+        <ul>
+            <li><a href="/htmltest/index.html#menu">Our Menu</a></li>
+        </ul>
+        <ul>
+            <li><a href="/htmltest/hour.html">Our time</a></li>
+        </ul>
+        <ul>
+            <li><a href="/htmltest/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <figure>
+        <img src="img/tacos_tray_400x267.png" alt="">
+        <figcaption>Tacos</figcaption>
+    </figure>
+
+
+</header>
+
+<main>
+    <section id="form">
+        <h2><strong>Our contact form</strong></h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>
+                    Send us a Message
+                </legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="your name">
+                </p>
+                <p>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" id="mail" placeholder="your mail">
+                </p>
+                <p>
+                    <label for="message">Your message:</label>
+                    <br>
+                    <textarea name="message" id="message" placeholder="your message" cols="30" rows = "10"></textarea>
+                </p>
+
+            </fieldset>
+            <button type="submit">send</button>
+            <button type="reset">reset</button>
+        </form>
+    </section>
+    <section id="location">
+        <h2><strong>Our Location</strong></h2>
+        <p><address>Lorem ipsum dolor sit amet, consecte sapiente sequi temporibus.</address></p>
+        <p>Phone: <a href="tel:+5555555">5555555</a></p>
+        <a href="#">Back to top</a>
+    </section>
+
+</main>
+<footer>
+    <p>Copyright &copy; The Tacos</p>
+
+</footer>
+</body>
+</html>
